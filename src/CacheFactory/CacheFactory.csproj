@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFramework>netstandard2.1</TargetFramework>
+      <PackageId>CacheFactory</PackageId>
+      <PackageVersion>0.1</PackageVersion>
+      <Authors>Alex Tully</Authors>
+      <Description>A caching library</Description>
+      <PackageTags>Caching</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.aspnetcore.dataprotection" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+    <PackageReference Include="system.text.json" Version="4.7.2" />
+  </ItemGroup>
+
+</Project>
